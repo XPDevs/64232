@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EXE PE Header Viewer</title>
+    <title>EXE 64-bit to 32-bit Converter</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
-        input { margin: 10px; }
-        pre { background: #f4f4f4; padding: 10px; border-radius: 5px; text-align: left; }
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        #output { white-space: pre-wrap; background: #f4f4f4; padding: 10px; border-radius: 5px; }
     </style>
 </head>
 <body>
-    <h1>EXE PE Header Viewer</h1>
-    <input type="file" id="fileInput" accept=".exe">
-    <pre id="output">Upload a .exe file to view its PE header.</pre>
-    <script src="script.js"></script>
+    <h1>EXE 64-bit to 32-bit Converter</h1>
+    <input type="file" id="fileInput">
+    <div id="output">Upload a .exe file to analyze and convert.</div>
+    <script src="converter.js"></script>
 </body>
 </html>
-
+ 
